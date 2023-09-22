@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 import CoinCard from "../components/CoinCard";
 import BackgroundImage from "../components/BackgroundImage";
+import SectionHeading from "../components/SectionHeading";
 
 
 
@@ -22,6 +23,7 @@ const Coins = () => {
     <div >
       <Navbar />
       <BackgroundImage />
+      
 
       <div className="container mx-auto mt-10">
       <div className="flex gap-3 flex-wrap justify-center">

@@ -6,7 +6,7 @@ import PageTitle from "./PageTitle";
 const BackgroundImage = () => {
 
   return (
-    <div className="h-96 bg-bottom overflow-hidden" style={{ backgroundSize:"covecdr",backgroundRepeat:"no-repeat", backgroundImage:` URL(${Image1})`}}>
+    <div className="h-96 bg-bottom overflow-hidden" style={{ backgroundSize:"cover",backgroundRepeat:"no-repeat", backgroundImage:` URL(${Image1})`}}>
       
     </div>
   );
