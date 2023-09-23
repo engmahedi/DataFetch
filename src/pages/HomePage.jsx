@@ -4,6 +4,8 @@ import Contact from "../components/Contact";
 import Hero from "../components/Hero";
 import HowWork from "../components/HowWork";
 import Navbar from "../components/Navbar";
+import NewCurrency from "../components/NewCurrency";
+import Request from "../components/Request";
 
 
 
@@ -18,6 +20,8 @@ const HomePage = () => {
       <Consultent />
       <Contact />
       <BuyandSale />
+      <NewCurrency />
+      <Request />
       
     </div>
   );

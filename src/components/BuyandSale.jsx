@@ -51,8 +51,8 @@ const BuyandSale = () => {
   ];
 
   return (
-    <>
-      <div className='container mx-auto py-20'>
+    <div className='bg-slate-100'>
+      <div className='container mx-auto py-20 '>
         <div className='text-center'>
             <SectionHeading item={{subtitle:'Buy and Sell Bitcoin', title:'WHY CHOOSE BITCOIN'}} />
             
@@ -69,7 +69,7 @@ const BuyandSale = () => {
           
       </div>
       
-    </>
+    </div>
   );
 };
 
