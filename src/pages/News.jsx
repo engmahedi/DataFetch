@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import BackgroundImage from "../components/BackgroundImage";
 import Navbar from "../components/Navbar";
 import NewsCard from "../components/NewsCard";
+import Footer from "../components/Footer";
 
 
 
@@ -28,6 +29,7 @@ const News = () => {
         
 
       </div>
+      <Footer />
       
       
     </div>

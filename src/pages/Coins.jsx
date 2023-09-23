@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import CoinCard from "../components/CoinCard";
 import BackgroundImage from "../components/BackgroundImage";
 import SectionHeading from "../components/SectionHeading";
+import Footer from "../components/Footer";
 
 
 
@@ -35,6 +36,7 @@ const Coins = () => {
         }
       </div>
       </div>
+      <Footer />
 
       
     </div>

@@ -24,7 +24,7 @@ const SingleCoin = () => {
           
           <div>
           <img src={coin.image} alt={coin.name} className="w-48" />
-          {/* <img src={coin.image} alt={coin.name} className="w-80" /> */}
+          
         </div>
         <div>
           <h2 className="text-xl font-bold">{coin.name}</h2>
